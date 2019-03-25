@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta type='viewport' content='width=device-width, initial-scale=1.0'>
+        <title>VestonGondweBiography</title>
+        <link rel="stylesheet" href="style5.0.css">
+        
+           
+    </head>
+    <body>
+        
+            <div id="container">
+                    
+                <h1>Veston Gondwe - Chanco Student</h1>
+                <img src="Snapchat-1192759630.jpg" width="300" height="250">
+                <p id="links"><a href="https://www.facebook.com">FACEBOOK</a> 
+
+
+
+                <a href="https://www.cc.ac.mw">Email</a>   
+                
+                
+
+                <a href="https://github.com/chanco-cs-inf221">GitHub</a> </p>
+                
+                
+            </div>
+         <aside>
+                    <div  id="project">
+                            <h2>PROJECTS</h2>
+                    </div>
+                    
+                    
+                    <div class="one">
+                                          
+                        <P>
+    
+                           <form>
+                           
+                           Project name: <input type="text" id="name"
+                            placeholder="Enter Project Name"><br><br>
+                           
+                           Project description: <input type="text" id="description"
+                             placeholder="Enter Project Description"><br><br>
+                           
+                           Project completion date: <input type="month" id= "completion"
+                            ><br><br>
+                           
+                           
+                        <button type="button" id="mySubmit">Submit</button>
+                           
+                            
+                          
+
+
+                        </form>
+                        
+                        <script type="text/javascript">
+                
+                        console.log(localStorage);
+                        const name= document.getElementById("name");
+                        const description= document.getElementById("description");
+                        const completion= document.getElementById("completion");
+                        const mySubmit = document.getElementById("mySubmit");
+
+
+                        mySubmit.onclick= function(){
+                                const key = name.value;
+                                const value = description.value;
+                                const ref = completion.value;
+
+                        if (key && value && ref){
+                            localStorage.setItem(key, value, ref);
+                            location.reload();
+                        }        
+                        
+                        };
+                    
+                    for (let i=0; i<localStorage.length; i++) {
+                        const key = localStorage.key(i);
+                        const value = localStorage.getItem(key);
+                    }   
+                        
+                        </script>
+                  
+                        </P>
+                    </div>
+                    <div class="one">
+                        <h2>CELL PHONE OPERATED LAND ROVER</h2>
+                        <p>
+                            Its a more controll friendly and it does not interfere with 
+                            other contollers.
+                            The robot is controlled by making a call on the mobile phone 
+                            attached to the robot. 
+                        </p>
+                    </div>
+                    <div class="one">
+                        <h2>SOLAR MOBILE PHONE CHARGER</h2>
+                        <p>
+                            This device makes use of a tiny three volts solar cell to charge
+                            a six volt NiCad battery set which, in return, possibly is employed 
+                            to charge lots of models of mobile phones and other handy gadgets. 
+                        </p>
+                    </div>
+                    <div class="one" >
+                        <h2>FINGER PRINT BASED SECURITY SYSTEM</h2>
+                        <p>
+                            This finger print project is created to evade security issues of 
+                            organizations. The finger print sensor reads the thumb of a related individual.
+                        </p>
+                    </div>
+                    <div class="one" >
+                        <h2>ELECTRONIC NOTEPAD</h2>
+                        <P>
+                            To design and put forward a handy electronic notepad. The notepad will 
+                            compromise of a touch screen and storage memory to accumulate data writen.
+                            
+
+                        </P>
+                    </div>
+                    <div class="one">
+                        <h2>PEN TO CHECK CONCENTRATION</h2>
+                        <p>
+                            A pen with pressure sensors on a grip to indicate loss of concentration 
+                            when the grip loosens.
+
+
+                        </p>
+                    </div>
+                    
+             
+         </aside>
+            <div id="third">
+                <h2>Work Experince</h2>
+            </div>
+    </body>
+</html>               

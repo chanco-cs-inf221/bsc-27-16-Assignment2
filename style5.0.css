@@ -1,0 +1,104 @@
+
+
+#container {
+    width:99%;
+    background: rgb(248, 248, 248);
+    padding: 4px;
+    border: 2px solid hsl(0, 0%, 0%);
+    margin-bottom: 25px;
+    text-align: left;
+
+     background-image: url("1.jpg");
+    
+    
+    
+    
+}
+
+
+#container > #links{
+    text-align: right;
+    text-decoration: none;
+
+}
+.one {
+       margin-left: 30px ;
+       border: 1px solid black;
+       width: 230px;
+       float: left;
+       height: 220px;
+       margin-top: 30px;
+       text-align: center;
+       margin-bottom: 20px;
+       padding: 4px;
+       margin-right: 30px;
+       background-color:rgb(173, 168, 160); 
+       background-image: url("City_Landscape_Background.jpg");
+}
+body {
+    text-align: left;
+    padding: 2px;
+    background-image: url("Purple.jpg");
+
+}
+ul {
+    border-width: 2px;
+}
+aside{
+    float: left;
+    border: 2px solid black;
+
+}
+
+#project{
+    text-align: center;
+}
+h2 {
+    background-color: rgba(89, 189, 180, 0.712) 248, 255, 0.712);
+}
+#third{
+    border: 1px solid black;
+    width: auto;
+    margin-top: 700px;
+    text-align: center;
+    background-color: rgb(80, 156, 175);
+    
+    
+}
+
+a {
+    color: rgb(241, 241, 241);
+    text-decoration: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: bold;
+}
+
+a {
+    inset-inline: 200px;
+    text-decoration: none;
+    border: 2px solid #000000;
+    padding: 15px;
+    color: rgb(1, 4, 7);
+    font: bolder; 
+}
+
+form{display:block;}
+
+button{
+    background-color: rgb(68, 7, 7);
+    border: none;
+    color: aliceblue;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: ghostwhite;
+    display: inline-block;
+    font: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
+
+
